@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div>
+            <h1 id="title">Basket Ball Score Board </h1>
+        </div>
+        <div class="sub-items">
+            <div class="sub-container">
+                <h2>Home</h2>
+                <p id="home-score" class="score-show">0</p>
+                <div class="btns">
+                    <button class="score-btn" onclick="plusOne()">+1</button>
+                    <button class="score-btn" onclick="plusTwo()">+2</button>
+                    <button class="score-btn" onclick="plusThree()">+3</button>
+                </div>
+            </div>
+            <div class="reset-container">
+                <button id="reset" onclick="reset()">Reset</button>
+            </div>
+            <div class="sub-container">
+                <h2>Guest</h2>
+                <p id="guest-score" class="score-show">0</p>
+                <div class="btns">
+                    <button class="score-btn" onclick="plus1()">+1</button>
+                    <button class="score-btn" onclick="plus2()">+2</button>
+                    <button class="score-btn" onclick="plus3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div id="round-map">
+            
+        </div>
+        
+    </div>
+    
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
